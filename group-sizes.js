@@ -17,7 +17,7 @@ if(num % 3 != 0) {
         group2 = temp / 2
     }
     else if(temp % 2 != 0) {
-        group3 = Math.round((num / 3) - 1)
+        group3 = Math.trunc((num / 3) - 1)
         temp2 = group3 * 3
         temp2 = num - temp2
         group2 = temp2 / 2
