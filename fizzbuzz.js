@@ -12,5 +12,5 @@ else if(num % 5 === 0) {
     console.log("Buzz")
 }
 else {
-    console.log("You number is not divisible by 3, 5, and or 3 and 5")
+    console.log(`Your number: ${num} is not divisible by 3, 5, and or 3 and 5`)
 }
