@@ -5,10 +5,10 @@ const age = Number(prompt('Please enter your age: '))
 if(age < 16) {
     console.log("You can't drive!")
 }
-else if(age >= 16 && age <= 17) {
+else if(age <= 17) {
     console.log("You can drive but not vote!")
 }
-else if(age >= 18 && age < 24) {
+else if(aage < 24) {
     console.log("You can vote but not rent a car!")
 }
 else {
