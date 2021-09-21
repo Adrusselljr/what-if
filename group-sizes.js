@@ -13,7 +13,7 @@ if(num % 3 === 0) {
 if(num % 3 != 0) {
     temp = num % 3
     if(temp % 2 === 0) {
-        group3 = num / 3
+        group3 = Math.trunc(num / 3)
         group2 = temp / 2
     }
     else if(temp % 2 != 0) {
