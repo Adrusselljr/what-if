@@ -8,7 +8,7 @@ var temp2 = 0
 
 if(num % 3 === 0) {
     group3 = num / 3
-    console.log(`You will have ${group3} groups of 3 and ${group2} groups of 2`)
+    console.log(`You will have ${group3} group(s) of 3 and ${group2} group(s) of 2`)
 }
 if(num % 3 != 0) {
     temp = num % 3
@@ -22,5 +22,5 @@ if(num % 3 != 0) {
         temp2 = num - temp2
         group2 = temp2 / 2
     }
-    console.log(`You will have ${group3} groups of 3 and ${group2} groups of 2`)
+    console.log(`You will have ${group3} group(s) of 3 and ${group2} group(s) of 2`)
 }
